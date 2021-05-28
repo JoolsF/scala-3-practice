@@ -29,3 +29,8 @@ target/
 .DS_Store
 
 .bsp
+
+.bloop/
+.metals/
+*.sc
+.vscode/
