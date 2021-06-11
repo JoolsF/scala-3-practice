@@ -34,3 +34,4 @@ target/
 .metals/
 *.sc
 .vscode/
+out/

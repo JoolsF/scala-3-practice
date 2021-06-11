@@ -1,8 +1,8 @@
-package com.joolsf.intersectiontypes
+package com.joolsf.newtypes
 
 // Both A && B
 //
-object IntersectionTypes1:
+object IntersectionTypes:
 
   trait Camera:
     def takePhoto(): Unit = println("snap")
@@ -16,4 +16,3 @@ object IntersectionTypes1:
   def test(sd: Camera & Phone): Unit =
     sd.takePhoto()
     sd.makeCall()
-
